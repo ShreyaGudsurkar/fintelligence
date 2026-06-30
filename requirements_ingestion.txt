@@ -1,0 +1,6 @@
+python-dotenv
+pinecone
+langchain-huggingface
+sentence-transformers
+pypdf
+langchain-text-splitters

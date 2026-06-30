@@ -1,0 +1,17 @@
+project_name: fintilligence
+version: 0.1.0
+
+llm:
+  provider: google
+  model: gemini-2.0-flash
+  temperature: 0.7
+
+# Placeholder for API Key - Best practice is to use env variables, but config can hold reference
+# google_api_key: ${GOOGLE_API_KEY}
+# alpha_vantage_api_key: ${ALPHA_VANTAGE_API_KEY}
+
+agents:
+  financial_analyst:
+    model: gemini-2.0-flash
+  market_researcher:
+    model: gemini-2.0-flash

@@ -1,0 +1,12 @@
+# Strict Dependency Pinning for NeMo + Google GenAI
+nemoguardrails==0.17.0
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.38
+langchain-google-genai==1.0.10
+google-generativeai==0.7.2    # Older version compatible with older protobuf
+# protobuf==4.25.3            # Removed pin to let pip solve
+langgraph<0.3                 # Ensure compatibility with older langchain
+presidio-analyzer
+presidio-anonymizer
+spacy
