@@ -42,15 +42,3 @@ A Multi-Agent Finance Intelligence Chatbot powered by LangGraph and Google Gemin
     - Copy `.env.example` to `.env` (create one if needed) and set your `GOOGLE_API_KEY`.
     - Review `config.yaml` for model settings.
 
-## Usage
-
-### Using Make (Recommended)
-
-- **Install**: `make install`
-- **Run App**: `make run`
-- **Test**: `make test`
-
-### Manual Run
-```bash
-streamlit run src/web_app/app.py
-```
